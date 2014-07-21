@@ -1,2 +1,1 @@
-master branch
-more stuff
+A simple angular-node.js template
