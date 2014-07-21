@@ -1,0 +1,73 @@
+/* app css stylesheet */
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+height: 100%;
+}
+
+body {
+background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%);
+font-family: 'Montserrat', sans-serif;
+}
+
+#start {
+margin: 35px 0px 0px 0px;
+}
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/*----navigation-----*/
+
+#navbar {
+margin: 0px 0px 0px 0px;
+background: linear-gradient(to bottom right, whitesmoke, rgba(130, 0, 0, 0));
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 30px;
+padding: 3px 0px 0px 0px;
+font-size: 18px;
+box-shadow: 0px 0px 5px black;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0px 10px 0px 10px;
+  text-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
